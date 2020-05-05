@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5a3a45bb-d281-4b52-8523-3efdefc7bb14" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="D:\OSPanel\domains\js-lesson-14-first\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1ad9mFDW4pFdv1HHMRfv7Fmitll" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../js-landing-project" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5a3a45bb-d281-4b52-8523-3efdefc7bb14" name="Default Changelist" comment="" />
+      <created>1587054761007</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1587054761007</updated>
+      <workItem from="1587054762178" duration="2340000" />
+      <workItem from="1587058452045" duration="812000" />
+      <workItem from="1587109897568" duration="4718000" />
+      <workItem from="1587138955821" duration="52000" />
+      <workItem from="1587208342200" duration="898000" />
+      <workItem from="1587221290469" duration="2345000" />
+      <workItem from="1587304370964" duration="1217000" />
+      <workItem from="1587400269581" duration="1253000" />
+      <workItem from="1587455619208" duration="14908000" />
+      <workItem from="1587726518068" duration="224000" />
+      <workItem from="1587811381603" duration="5327000" />
+      <workItem from="1587969729241" duration="113000" />
+      <workItem from="1587983853914" duration="10000" />
+      <workItem from="1587997619159" duration="275000" />
+      <workItem from="1588341377172" duration="119000" />
+      <workItem from="1588341502704" duration="1066000" />
+      <workItem from="1588577773264" duration="5635000" />
+      <workItem from="1588663171196" duration="320000" />
+      <workItem from="1588664095352" duration="4328000" />
+    </task>
+    <task id="LOCAL-00001" summary="lesson 14">
+      <created>1587126779900</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1587126779900</updated>
+    </task>
+    <task id="LOCAL-00002" summary="lesson 14-1 fix">
+      <created>1587138985642</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1587138985642</updated>
+    </task>
+    <task id="LOCAL-00003" summary="js-promise fix">
+      <created>1588671227680</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1588671227680</updated>
+    </task>
+    <task id="LOCAL-00004" summary="js-promise fix">
+      <created>1588671454629</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1588671454629</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="lesson 14" />
+    <MESSAGE value="lesson 14-1 fix" />
+    <MESSAGE value="js-promise fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="js-promise fix" />
+  </component>
+</project>
