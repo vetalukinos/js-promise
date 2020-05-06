@@ -1,0 +1,20 @@
+.paste-language {
+    margin-top: 25px;
+    font-size: 1.3rem;
+}
+#button {
+    display: block;
+    width: 10rem;
+    height: 2rem;
+    margin: 15px 0;
+    cursor: pointer;
+    outline: none;
+}
+.lang-field {
+    width: 20rem;
+    height: 2rem;
+    padding: 0 10px;
+    color: #000;
+    border: 1px solid gray;
+    outline: none;
+}

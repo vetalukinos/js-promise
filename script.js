@@ -1,48 +1,53 @@
 document.addEventListener('DOMContentLoaded', () => {
     'use strict';
 
-    const select = document.getElementById('cars'),
-        output = document.getElementById('output');
+    const input = document.getElementById('enter-text'),
+        button = document.getElementById('button'),
+        output = document.getElementById('output'),
+        first = document.getElementById('1'),
+        second = document.getElementById('2');
+    let language = 'en-ru';
 
-    select.addEventListener('change', () => {
-
-        const getData = () => {
-
-            return new Promise((resolve, reject) => {
-                const request = new XMLHttpRequest();
-                request.open('GET', './cars.json');
-                request.setRequestHeader('Content-type', 'application/json');
-                request.addEventListener('readystatechange', () => {
-                    if (request.readyState !== 4) {
-                        return;
-                    }
-                    if (request.status === 200) {
-                        const data = JSON.parse(request.responseText); //данные
-                        data.cars.forEach(item => {
-                            if (item.brand === select.value) {
-                                const {brand, model, price} = item;
-                                output.innerHTML = `Тачка ${brand} ${model} <br>
-                        Цена: ${price}$`;
-                            }
-                        });
-                        resolve(data);
-
-                    } else {
-                        reject(request.statusText);
-                    }
-                });
-                request.send();
-            });
-
-        };
+    first.addEventListener('click', () => {
+        first.classList.add('checked');
+        second.classList.remove('checked');
+        language = 'en-ru';
+        input.value = '';
+        output.textContent = '';
+    });
+    second.addEventListener('click', () => {
+        second.classList.add('checked');
+        first.classList.remove('checked');
+        language = 'ru-en';
+        input.value = '';
+        output.textContent = '';
+    });
 
 
-        getData()
-            .then()
-            .catch(() => {
-                output.innerHTML = 'Произошла ошибка';
-            });
+    button.addEventListener('click', () => {
 
+        fetch('https://translate.yandex.net/api/v1.5/tr.json/translate?' +
+            'lang=' + language +
+            '&key=trnsl.1.1.20200506T093210Z.2a4552b4090db8de.601e9bbc4858eaf0fd5427a00ec98321f307c154' +
+            '&text=' + input.value, {
+            mode: 'cors',
+            headers: {
+                'Content-Type': 'application/x-www-form-urlencoded'
+            }
+        })
+            .then((response) => {
+                if (response.status !== 200) {
+                    throw new Error('status network not 200');
+                }
+                return(response.json());
+            })
+            .then((data) => {
+                output.textContent = data.text.toString();
+            })
+            .catch((error) => console.log(error));
     });
 
 });
+
+
+

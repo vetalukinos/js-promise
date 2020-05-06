@@ -6,21 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <style>
-
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-<select id="cars">
-    <option value="no">Выберите тачку</option>
-    <option value="bmw">bmw</option>
-    <option value="volvo">volvo</option>
-</select>
+<div class="change-language">
+    <h4>Выбрать язык:</h4>
+    <label><input name="radio" type="radio" value="1" id="1" class="radio checked" checked>English</label>
+    <label><input name="radio" type="radio" value="2" id="2" class="radio">Русский</label>
+</div>
 
-<div id="output">
-    выбери тачку
+<div class="paste-language">
+    <input type="text" id="enter-text" class="lang-field">
+    <button type="submit" id="button">Перевести</button>
+    <div id="output" class="lang-field"></div>
 </div>
 
 
